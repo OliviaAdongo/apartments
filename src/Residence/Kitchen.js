@@ -10,15 +10,15 @@ function Bedroom() {
       <Navbar />
       <div className="flexbox-container-livingroom">
         <div className="flexbox-item-livingroom-1">
-          <div className="rheading">
+          <div className="roomheading">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/logowhite.png"
-              className="rgrey-logo"
+              className="rwhite-logo"
               alt="logo"
             />
 
-            <h6 className="topic title">T H E </h6>
-            <h1 className="topic next"> R E S I D E N C E S</h1>
+            <h6 className="trr">T H E </h6>
+            <h1 className="tr"> R E S I D E N C E S</h1>
           </div>
 
           <div className="sidebar-center">

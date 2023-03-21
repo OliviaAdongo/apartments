@@ -1,7 +1,7 @@
 import "./Resident.css";
 import { useNavigate } from "react-router-dom";
 
-
+ 
 function Residence() {
   let navigate = useNavigate(); 
 
