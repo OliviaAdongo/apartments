@@ -1,0 +1,98 @@
+.flexbox-container-amenities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 88vh;
+
+  }
+  .flexbox-item-amenities1 {
+    width: 180px;
+    flex-grow: 1; 
+  }
+  .flexbox-item-amenities2 {
+    flex-grow: 1;
+    width: 990px;
+  }
+  .grey-logo {
+    height: 358px;
+    width: 340px;
+  }
+  .lobby-image {
+    object-fit: cover;
+    height: 87vh;
+    width: 100%;
+  }
+  .coddler {
+    padding: 45px 55px 5px 5px;
+    color: grey;
+    font-size: 23px;
+    font-weight: normal;
+  }
+  .aheading {
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+    color: gray;
+   background-color: goldenrod;
+  }
+  .mheading {
+    text-align: left;
+    padding: 55px 5px 15px 5px;
+    color: gray;
+    border-bottom: 3px solid goldenrod;
+  }
+  
+  .gain {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  .gain-top {
+    color: grey;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .gain-top.top {
+    padding: 25px 0 20px 0;
+  }
+  .place {
+    list-style: none;
+    color: grey;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .topic.title {
+    color: gray;
+    margin-top: -76px;
+    font-size: 19px;
+  }
+  .topic.next {
+    color: grey;
+    font-size: 37px;
+  }
+  .abody {
+    padding: 85px 10px 75px 35px;
+    height: 363px;
+    background-color: rgb(69, 67, 67);
+    
+
+  }
+  .paragraph-bottommer{
+    font-size: 18px;
+    color: grey;
+    /* background-color: pink; */
+    padding: 45px 15px 15px 0;
+  }
+ 
+  .next {
+    color: grey;
+    text-align: center;
+  }
+  
+  .carey {
+    margin-top: 15px;
+   
+    color: goldenrod;
+    font-size: 28px;
+    padding-bottom: 10px;
+  }

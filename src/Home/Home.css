@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+@font-face {
+  font-family: "luxury1";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
+}
+@font-face {
+    font-family: "paragone";
+    src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+}
+.flexbox-container {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 950px;
+  justify-content: left;
+}
+.home-logo{
+    height: 70px;
+}
+.lore{
+    background-color: pink;
+}
+.home-nest{
+    font-family: 'paragone';
+}

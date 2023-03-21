@@ -1,0 +1,40 @@
+.sheading{
+text-align: center;
+  padding: 5px 5px 15px 5px;
+  color: gray;
+  height: 240px;
+  background-color: rgb(60, 58, 58);
+}
+.ggrey-logo{
+    height: 148px;
+
+}
+.title {
+    color: gray;
+    font-size: 19px;
+  }
+  .nextt {
+    color: grey;
+  }
+  .sbody{
+    padding: 55px 16px 19px 10px;
+    border-bottom: 2px solid grey;
+  }
+  .sunner{
+    font-size: 50px;
+    /* font-weight: bold; */
+    color: goldenrod;
+  }
+  .sparagraph-bottom{
+    color: grey;
+    padding: 25px 15px 15px 10px;
+
+  }
+  .eastward{
+    font-size: 33px;
+    padding-top: 15px;
+  }
+  .east-gard{
+    padding-top: 23px;
+    font-size: 23px;
+  }

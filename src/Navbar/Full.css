@@ -1,0 +1,20 @@
+.flexer{
+    background-color: goldenrod;
+    height: 100vh;
+    text-align: center;
+    padding-top: 76px;
+}
+a{
+    text-decoration: none;
+}
+.menu-opt{
+    color: grey;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 45px;
+    
+}
+.mini-topic{
+    margin-top: 20px;
+    font-size: 20px;
+}

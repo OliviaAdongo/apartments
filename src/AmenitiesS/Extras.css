@@ -1,0 +1,87 @@
+.amenity1 {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/gym.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.amenity3 {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/infinitypool.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.amenity2 {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/coutryard.jpg");
+  height: 88vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gym {
+  color: white;
+  font-size: 20px;
+  padding: 45px 0 0 15px;
+}
+.courtyard {
+  color: white;
+  font-size: 20px;
+
+  padding: 45px 0 0 15px;
+}
+.pool {
+  font-size: 20px;
+
+  color: white;
+  padding: 45px 0 0 15px;
+}
+.flexbox-container-infinity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 88vh;
+}
+.flexbox-item-infinity-1 {
+  width: 170px;
+  flex-grow: 1;
+}
+.flexbox-item-infinity-2 {
+  flex-grow: 1;
+  width: 290px;
+}
+.flexbox-item-infinity-3 {
+  width: 290px;
+  flex-grow: 1;
+}
+.flexbox-item-infinity-4 {
+  flex-grow: 1;
+  width: 290px;
+}
+.grey-logo {
+  height: 358px;
+  width: 340px;
+}
+.paragraph-infi {
+  font-size: 18px;
+  color: grey;
+  /* background-color: pink; */
+  padding: 29px 15px 15px 0;
+  margin-left: 10px;
+}
+.caring {
+  margin-top: 15px;
+
+  color: goldenrod;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+.ibody {
+  padding: 55px 10px 75px 35px;
+  height: 405px;
+  background-color: rgb(69, 67, 67);
+}
