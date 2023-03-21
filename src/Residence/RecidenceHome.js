@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import { useNavigate } from "react-router-dom";
 
 import "./Reside.css";
-
+ 
 function RecidenceHome() {
   let navigate = useNavigate()
   return (
@@ -21,18 +21,18 @@ function RecidenceHome() {
           
           </div>
           <div className="body">
-          <h1  className="luxury" style={{marginTop:"30px"}}>L  U X U R Y</h1>
-          <h1 className="luxury u" style={{marginTop:"15px"}}>U N I T S</h1>
+          <h1  className="luxury" >L  U X U R Y</h1>
+          <h1 className="luxury u" >U N I T S</h1>
 
 
           </div>
           <div className="footer"> 
-          <h1 className="care" style={{marginTop:"15px"}}>CAREFULLY </h1>
-            <h1 className="care" style={{marginTop:"15px"}}>CONSIDERED &</h1>
+          <h1 className="care" >CAREFULLY </h1>
+            <h1 className="care" >CONSIDERED &</h1>
 
-            <h1 className="care" style={{marginTop:"15px"}}>METICULOUSLY </h1>
+            <h1 className="care" >METICULOUSLY </h1>
 
-            <h1 className="care" style={{marginTop:"15px"}}>DESIGNED</h1>
+            <h1 className="care" >DESIGNED</h1>
 
           
             <p className="paragraph-bottom">

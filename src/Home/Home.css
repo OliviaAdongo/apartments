@@ -7,23 +7,33 @@
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
 }
 @font-face {
-    font-family: "paragone";
-    src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+  font-family: "paragone";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
 }
 .flexbox-container {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  height: 910px;
   justify-content: left;
 }
-.home-logo{
-    height: 70px;
+.home-logo {
+  height: 140px;
+  padding: 65px 0px 0 75px;
 }
-.lore{
-    background-color: pink;
+.home-content {
+  padding: 25px 0px 10px 75px;
 }
-.home-nest{
-    font-family: 'paragone';
+.lore {
+ 
+  font-size: 40px;
+  padding: 19px 0px 10px 5px;
+  color: white;
+  font-weight: bold;
+}
+.home-nest {
+  font-family: "paragone";
+  color: white;
+  font-size: 25px;
 }
