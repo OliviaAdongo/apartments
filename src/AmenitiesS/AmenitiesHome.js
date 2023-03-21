@@ -25,7 +25,7 @@ function AmenitiesHome() {
             <h1 className="carey">C O N S I D E R E D & </h1>
             <h1 className="carey">M E T I C U L O U S L Y </h1>
             <h1 className="carey">D E S I G N E D</h1>
-            <p className="paragraph-bottommer">
+            <p className="paragraph-bottommmer">
             With uninterrupted views from each apartment, 'The Saruni' at
             Riverside Drive, is a modern interpretation of contemporary luxury
             specifically designed to enhance your living experience

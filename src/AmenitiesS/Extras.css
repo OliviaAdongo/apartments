@@ -85,11 +85,20 @@
   height: 405px;
   background-color: rgb(69, 67, 67);
 }
-.bodry{
+.bodry {
   background-color: rgb(69, 67, 67);
-
+  height: 323px;
 }
-.paragraph-bottom{
+.paragraphh-bottom {
   background-color: rgb(69, 67, 67);
-
+  color: grey;
+  margin-top: 15px;
+}
+.flexbox-item-residencehomee-1 {
+  /* background-color: pink; */
+  text-align: left;
+  width: 160px;
+  flex-grow: 1;
+  padding-left: 46px;
+  /* padding-right: 15px; */
 }
