@@ -42,6 +42,8 @@ function RecidenceHome() {
             </p>
           </div>
         </div>
+
+        
         <div className="flexbox-item-residencehome-2">
           <img
             src="http://www.thesaruni.com/TheSaruniImages/residenceluxury.jpg"
