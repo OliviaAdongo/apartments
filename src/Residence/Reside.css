@@ -41,8 +41,18 @@
 }
 .rheading {
   background-color: goldenrod;
-  text-align: center;
+  text-align: left;
   height: 220px;
+  padding-left: 10px;
+}
+.trre{
+  color: gray;
+  margin-top: -56px;
+  font-size: 15px;
+}
+.tir{
+  color: gray;
+  font-size: 22px;
 }
 .luxury {
   color: goldenrod;

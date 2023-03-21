@@ -1,18 +1,21 @@
 import "./Resident.css";
 import { useNavigate } from "react-router-dom";
 
- 
+   
 function Residence() {
   let navigate = useNavigate(); 
 
   return (
     <div className="flexbox-container-resident">
       <div className="flexbox-item-resident-1">
-        <img
+      <div className="j">
+      <img
           className="landing-page-logo"
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
           alt="logo"
         /> 
+      </div>
+        
         <h4 className="reside">R E S I D E </h4>
         <h4
           className="reside"

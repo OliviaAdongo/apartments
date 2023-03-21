@@ -13,12 +13,12 @@ function AmenitiesHome() {
           <div className="aheading">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
-              className="grey-logo"
+              className="rwhite-logo"
               alt="logo"
             />
 
-            <h6 className="topic title">T H E </h6>
-            <h1 className="topic next"> A M E N I T I E S</h1>
+            <h6 className="trre">T H E </h6>
+            <h1 className="tir"> A M E N I T I E S</h1>
           </div>
           <div className="abody">
             <h1 className="carey">C A R E F U L L Y</h1>

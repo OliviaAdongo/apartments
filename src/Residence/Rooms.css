@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
+  /* align-items: stretch; */
   height: 87vh;
 }
 .flexbox-item-livingroom-1 {
@@ -35,14 +35,17 @@
 height: 220px;
 }
 
-/* .flexbox-item-livingroom-2 {
+.flexbox-item-livingroom-2 {
   background-color: pink;
+  flex-grow: 0;
 
-} */
-/* .flexbox-item-livingroom-3 {
+
+}
+.flexbox-item-livingroom-3 {
   background-color: peru;
+  flex-grow: 0;
  
-} */
+}
 .room-view {
   object-fit: cover;
   height: 87vh;

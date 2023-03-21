@@ -8,6 +8,7 @@
   }
   .flexbox-item-amenities1 {
     width: 180px;
+    /* background-color: pink; */
     flex-grow: 1; 
   }
   .flexbox-item-amenities2 {
@@ -30,10 +31,10 @@
     font-weight: normal;
   }
   .aheading {
-    text-align: center;
-    padding: 5px 5px 15px 5px;
-    color: gray;
-   background-color: goldenrod;
+    background-color: goldenrod;
+  text-align: left;
+  height: 220px;
+  padding-left: 10px;
   }
   .mheading {
     text-align: left;
@@ -91,8 +92,7 @@
   
   .carey {
     margin-top: 15px;
-   
     color: goldenrod;
-    font-size: 28px;
+    font-size: 18px;
     padding-bottom: 10px;
   }

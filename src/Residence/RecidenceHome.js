@@ -14,10 +14,10 @@ function RecidenceHome() {
           <div className="rheading">
           <img  
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
-          className="rgrey-logo" alt="logo"/>
+          className="rwhite-logo" alt="logo"/>
  
-         <h6 className="topic title">T H E </h6>
-            <h1 className="topic next"> R E S I D E N C E S</h1>
+         <h6 className="trre">T H E </h6>
+            <h1 className="tir"> R E S I D E N C E S</h1>
           
           </div>
           <div className="body">

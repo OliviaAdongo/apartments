@@ -26,7 +26,7 @@ NAVBAR
     </div>
     <h1
         onClick={() => {
-          navigate("/residence");
+          navigate("/animation");
         }}
         className="next"
       >

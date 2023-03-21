@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Residence from "../Residence/Residence";
 import Neighborhood from "../Neighborhood/Neighborhood";
 import Amenities from "../AmenitiesS/Amenities";
-
+ 
   
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -52,7 +52,7 @@ const rotateAnimationHandler = (props, state) => {
   };
 };
 
-function Cara() {
+function Rousel() {
 
     useEffect(() => {
       const getNumbers =  sessionStorage.getItem("numberReloaded");
@@ -83,4 +83,4 @@ function Cara() {
   );
 }
 
-export default Cara;
+export default Rousel;

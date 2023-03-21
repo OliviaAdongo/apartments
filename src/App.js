@@ -5,6 +5,7 @@ import GeneralAmenities from "./AmenitiesS/GeneralAmenities";
 import Sunrise from "./AmenitiesS/Sunrise";
 import Sunset from "./AmenitiesS/Sunset";
 import Home from "./Home/Home";
+import Rousel from "./Home/Rousel";
 import Fullbar from "./Navbar/Fullbar";
 import Navbar from "./Navbar/Navbar";
 import NeighborHome from "./Neighborhood/NeighborHome";
@@ -24,6 +25,8 @@ function App() {
       <Route path="/menu" element={<Fullbar />} />
 
         <Route path="/" element={<Home />} />
+        <Route path="/animation" element={<Rousel />} />
+
         <Route path="/residence" element={<Residence />} />
         <Route path="/amenities" element={<Amenities />} />
         <Route path="/neighborhood" element={<Neighborhood />} />
