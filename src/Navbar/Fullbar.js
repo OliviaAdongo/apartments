@@ -25,7 +25,7 @@ function Fullbar() {
         <a href="/availability">
           <h1 className="menu-opt">A V A I L A B I L I T Y</h1>
         </a>
-        <h1 className="menu-opt">VIRTUAL TOUR </h1>
+       <a href='https://www.youtube.com/watch?v=I8iI6Oh-OkA'><h1 className="menu-opt">VIRTUAL TOUR </h1></a> 
 
         <h1 className="menu-opt">ABOUT US </h1>
         <a href="/contact">

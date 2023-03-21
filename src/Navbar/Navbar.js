@@ -12,7 +12,7 @@ function Navbar() {
     navRef.current.classList.toggle("responsive_nav");
   };
 
-  return (
+  return ( 
     <div className="child-nav">
       <header className="headerr">
         <img

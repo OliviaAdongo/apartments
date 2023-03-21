@@ -1,9 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Amenities from "./AmenitiesS/Amenities";
 import AmenitiesHome from "./AmenitiesS/AmenitiesHome";
+import East from "./AmenitiesS/East";
 import GeneralAmenities from "./AmenitiesS/GeneralAmenities";
 import Sunrise from "./AmenitiesS/Sunrise";
 import Sunset from "./AmenitiesS/Sunset";
+import West from "./AmenitiesS/West";
+import Availability from "./Home/Availability";
 import Home from "./Home/Home";
 import Rousel from "./Home/Rousel";
 import Fullbar from "./Navbar/Fullbar";
@@ -23,6 +26,8 @@ function App() {
       {/* <Navbar/> */}
       <Routes>
       <Route path="/menu" element={<Fullbar />} />
+      <Route path="/availability" element={<Availability />} />
+
 
         <Route path="/" element={<Home />} />
         <Route path="/animation" element={<Rousel />} />
@@ -41,6 +46,13 @@ function App() {
         <Route path="/poolgymcourtyard" element={<GeneralAmenities />} />
         <Route path="/sunrise" element={<Sunrise />} />
         <Route path="/sunset" element={<Sunset />} />
+
+
+        <Route path="/sunup" element={<East />} />
+        <Route path="/sundown" element={<West />} />
+
+
+
 
 
 

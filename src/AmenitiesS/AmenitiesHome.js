@@ -43,7 +43,7 @@ function AmenitiesHome() {
       </div>
       <h1
         onClick={() => {
-          navigate("/sunrise");
+          navigate("/sunup");
         }}
         className="next"
       >

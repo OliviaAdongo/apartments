@@ -1,0 +1,105 @@
+.griid-container-elementt {
+  display: grid;
+  grid-template-columns: 6fr 9fr;
+  grid-gap: 0px;
+  font-family: "luxury";
+}
+.avail {
+  height: 88vh;
+  width: 100%;
+  object-fit: cover;
+}
+.lux-head {
+  padding: 10px;
+  /* border-right: 3px solid grey; */
+  background-color: goldenrod;
+  width: 400px;
+}
+.topic-lux {
+  font-family: "luxury";
+  margin-top: 15px;
+  margin-left: 20px;
+  font-weight: normal;
+  color: #7b7471;
+}
+.topic-lux-reserve {
+  font-family: "luxury3";
+  margin-top: 15px;
+  margin-left: 20px;
+  font-weight: normal;
+  color: #7b7471;
+}
+.lux-head.two {
+  height: 141px;
+}
+/* .lux-body{
+   
+    border-right: 1px solid grey;
+ 
+  } */
+.body-lux {
+  font-family: "luxury";
+  color: #7b7471;
+
+  margin-left: 30px;
+}
+.body-lux.tittle {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 30px;
+}
+.body-lux.one {
+  margin-top: 0;
+  font-size: 15px;
+}
+.headingsss {
+  display: flex;
+}
+.body-one {
+  display: flex;
+
+  height: 350px;
+}
+.body-two {
+  display: flex;
+  height: 350px;
+}
+.lux-body-upjuu {
+  width: 600px;
+  border-right: 1px solid #7b7471;
+  border-bottom: 1px solid #7b7471;
+  /* background-color: brown; */
+}
+.lux-body-upple {
+  border-bottom: 1px solid #7b7471;
+}
+.lux-body-updown {
+  width: 569px;
+  border-right: 1px solid #7b7471;
+}
+.sect-body {
+  margin-top: 30px;
+  /* background-color: pink; */
+  height: 830px;
+}
+.topic-luxx {
+  font-family: "luxury3";
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #7b7471;
+  font-weight: bold;
+}
+.explore-avia {
+  font-family: "luxury";
+  font-weight: bold;
+  color: #7c7471;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.number {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 290%;
+}
