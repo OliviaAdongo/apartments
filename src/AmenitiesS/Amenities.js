@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function Amenities() {
   let navigate = useNavigate();
 
-  return (
+  return ( 
     <div className="flexbox-container-amenity">
       <div className="flexbox-item-amenity-1">
         <img

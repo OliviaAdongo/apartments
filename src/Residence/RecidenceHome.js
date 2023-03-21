@@ -48,19 +48,16 @@ function RecidenceHome() {
             alt="residence"
             className="living-area"
           />
-        </div>
-      </div>
-      <div className="flexbox-item-residencehome-3">
-        <h1
-          onClick={() => {
+          <h6 onClick={() => {
             navigate("/livingroom");
           }}
-       className='next' >
-
-          EXPLORE THE RESIDENCES
-        </h1>
-        <h1 className="downangle"><FaAngleDown /></h1>
+       className='more'>
+            EXPLORE THE RESIDENCES<FaAngleDown />
+          </h6>
+        </div>
+        
       </div>
+      
     </div>
   );
 }

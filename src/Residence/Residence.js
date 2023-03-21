@@ -12,7 +12,7 @@ function Residence() {
           className="landing-page-logo"
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
           alt="logo"
-        />
+        /> 
         <h4 className="reside">R E S I D E </h4>
         <h4
           className="reside"
@@ -52,3 +52,4 @@ function Residence() {
 }
 
 export default Residence;
+ 

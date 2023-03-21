@@ -8,7 +8,7 @@
 .flexbox-item-livingroom-1 {
   /* background-color: peru; */
   text-align: left;
-  width: 150px;
+  width: 90px;
   flex-grow: 1;
 }
 .heading{
@@ -19,20 +19,21 @@
 .sidebar-center{
   color: grey;
   /* background-color: pink; */
-  padding: 65px 15px 40px 10px;
-  height: 250px;
+  padding: 5px 15px 10px 10px;
   cursor: pointer;
 
 }
 .activelink{
   color: goldenrod;
-    font-size: 30px;
+    font-size: 20px;
 }
 #rooms{
-  margin-top: 40px;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 20px;
 }
-
+.rwhite-logo{
+height: 220px;
+}
 
 .flexbox-item-livingroom-2 {
 
@@ -55,6 +56,13 @@
   height: 87vh;
   width: 770px;
 }
+.roomheading{
+  background-color: goldenrod;
+  padding-left: 10px;
+  text-align: left;
+  height: 220px;
+  width:320px;
+}
 .white-logo {
   height: 150px;
 }
@@ -71,9 +79,25 @@
 
 }
 h4#disclaimer{
-  font-size: 25px;
+  font-size: 20px;
 
 }
 #disclaimerr{
-  padding-top: 25px;
+  padding-top: 15px;
+}
+.tr{
+  text-align: left;
+  color: grey;
+  font-size: 21px;
+}
+.trr{
+  color: gray;
+  margin-top: -56px;
+  font-size: 12px;
+}
+.morer{
+  /* background-color: pink; */
+  color: gray;
+  font-size: 19px;
+  
 }

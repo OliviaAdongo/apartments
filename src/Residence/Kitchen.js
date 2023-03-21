@@ -23,7 +23,7 @@ function Bedroom() {
 
           <div className="sidebar-center">
             <h4
-              
+               
               onClick={() => {
                 navigate("/livingroom");
               }}
@@ -80,16 +80,15 @@ function Bedroom() {
           <h6 className="example two">
             2 Bedroom apartment living area example
           </h6>
+          <h6 onClick={() => {
+            navigate("/menu");
+          }}
+       className='morer'>
+            GO TO MENU<FaAngleUp />
+          </h6>
         </div>
       </div>
-      <h1
-        onClick={() => {
-          navigate("/menu");
-        }}
-        className="next"
-      >
-        GO TO MENU <FaAngleUp />
-      </h1>
+      
     </div>
   );
 }

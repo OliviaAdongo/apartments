@@ -4,18 +4,20 @@
   justify-content: space-between;
   align-items: stretch;
   height: 87vh;
+  position: relative;
 }
 .flexbox-item-residencehome-1 {
   /* background-color: pink; */
   text-align: left;
-  width: 150px;
+  width: 160px;
   flex-grow: 1;
-  padding-left: 56px;
+  padding-left: 46px;
   padding-right: 15px;
 }
 .flexbox-item-residencehome-3 {
-  /* margin-top: 30px; */
-  /* background-color: green; */
+ position: absolute;
+ left: 23px;
+ bottom: -11px;
   color: grey;
   text-align: left;
   padding-top: 40px;
@@ -34,12 +36,13 @@
   width: 100%;
 }
 .rgrey-logo {
-  height: 358px;
+  height: 258px;
   width: 340px;
 }
 .rheading {
   background-color: goldenrod;
   text-align: center;
+  height: 220px;
 }
 .luxury {
   color: goldenrod;
@@ -63,4 +66,9 @@
   font-size: 17px;
   padding-top: 25px;
   padding-bottom: 35px;
+}
+.more{
+  text-align: center;
+  color: grey;
+  font-size: 18px
 }
