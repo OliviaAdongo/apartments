@@ -7,7 +7,7 @@ import "./Reside.css";
 function RecidenceHome() {
   let navigate = useNavigate()
   return (
-    <div>
+    <div> 
     <Navbar/>
       <div className="flexbox-container-residencehome">
         <div className="flexbox-item-residencehome-1">

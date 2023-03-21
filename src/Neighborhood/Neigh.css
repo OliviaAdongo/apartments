@@ -10,6 +10,13 @@
   width: 180px;
   flex-grow: 1;
 }
+.jirheading{
+  /* background-color: goldenrod; */
+  text-align: left;
+  height: 220px;
+  padding-left: 10px;
+  border-bottom: 3px solid grey;
+}
 .flexbox-item-neighhome2 {
   flex-grow: 1;
   width: 990px;
@@ -24,10 +31,10 @@
   width: 100%;
 }
 .coddler {
-  padding: 45px 55px 5px 5px;
   color: grey;
-  font-size: 23px;
-  font-weight: normal;
+  font-size: 17px;
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 .nheading {
   text-align: center;
@@ -43,14 +50,14 @@
 }
 
 .gain {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   font-weight: bolder;
 }
 .gain-top {
   color: grey;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
 }
 .gain-top.top {
   padding: 25px 0 20px 0;
@@ -58,8 +65,8 @@
 .place {
   list-style: none;
   color: grey;
-  margin-top: 10px;
-  font-size: 20px;
+  /* margin-top: 10px; */
+  font-size: 17px;
 }
 .topic.title {
   color: gray;
@@ -88,5 +95,9 @@
 }
 .jkia {
   color: grey;
-  font-size: 19px;
+  font-size: 14px;
+}
+.jirani{
+  color: grey;
+  padding: 15px 0 10px 15px;
 }

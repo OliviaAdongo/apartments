@@ -9,22 +9,27 @@ function NeighborHome() {
     <div className="parent">
       <Navbar />
       <div className="flexbox-container-neighhome">
-        <div className="flexbox-item-neighhome1">
-          <div className="nheading">
-            <img
-              src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
-              className="grey-logo"
-              alt="logo"
-            />
-
-            <h6 className="topic title">T H E </h6>
-            <h1 className="topic next"> N E I G H B O R H O O D</h1>
+      <div className="flexbox-item-residencehome-1">
+          <div className="jirheading">
+          <img  
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+          className="rwhite-logo" alt="logo"/>
+ 
+         <h6 className="trre">T H E </h6>
+            <h1 className="tir"> N E I G H B O R H O O D</h1>
+          
           </div>
-          <div className="nbody">
-            <h2 className="exclude">AN EXCLUSIVE </h2>
+          <div className="bodyy">
+          <h1  className="jirani" >AN EXCLUSIVE</h1>
+          <h1 className="jirani u" >ADDRESS</h1>
 
-            <h2 className="exclude">ADDRESS</h2>
-            <p className="coddler">
+
+          </div>
+          <div className="footer"> 
+          
+
+          
+          <p className="coddler">
               Coddled by nature on the edge of Nairobi River, 'The Saruni', is a
               tranquil refuge located on Nairobi's coveted Riverside Drivee; A
               secluded preference for embasies, diplomatic organizations and
@@ -36,6 +41,9 @@ function NeighborHome() {
             </p>
           </div>
         </div>
+
+
+      
         <div className="flexbox-item-neighhome2">
           <img
             src="http://www.thesaruni.com/TheSaruniImages/neigbourhood.jpg"
