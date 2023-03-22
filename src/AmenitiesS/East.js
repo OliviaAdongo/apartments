@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 function East() {
   // let navigate = useNavigate();
 
-  return (
+  return ( 
     <div className="kubwa-sun">
       <div>
         <Navbar />{" "}
@@ -20,20 +20,20 @@ function East() {
               alt="logo"
             />
 
-            <h6 className="brown-section one">T H E </h6>
-            <h1 className="brown-section two"> S P E C T A C U L A R</h1>
-            <h1 className="brown-section two">S K Y G A R D E N S</h1>
+            <h6 className="trire">T H E </h6>
+            <h1 className="tir"> S P E C T A C U L A R</h1>
+            <h1 className="tir">S K Y G A R D E N S</h1>
           </div>
-
+ 
           <div className="center1">
-            <p className="sunner">Wake up to the sunrise on the East</p>
+            <p className="carey">Wake up to the sunrise on the East</p>
           </div>
 
           <div className="disclaimer y">
-            <h4 className="eastward">T H E </h4>
-            <h4 className="eastward">E A S T W A R D </h4>
-            <h4 className="eastward"> G A R D E N</h4>
-            <p className="east-gard">
+            <h4 className="jirani">T H E </h4>
+            <h4 className="jirani">E A S T W A R D </h4>
+            <h4 className="jirani"> G A R D E N</h4>
+            <p className="coddler">
               is located on the 9th and 10th floor and presents amazing views of
               the Nairobi CBD area.
             </p>

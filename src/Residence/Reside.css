@@ -43,7 +43,7 @@
   background-color: goldenrod;
   text-align: left;
   height: 220px;
-  padding-left: 10px;
+  padding-left: 10px; 
 }
 .trre{
   color: gray;
@@ -55,8 +55,9 @@
   font-size: 22px;
 }
 .luxury {
+
   color: goldenrod;
-  padding: 15px 0 10px 15px;
+  padding: 10px 0 10px 15px;
 }
 .body{
   border-bottom: 2px solid goldenrod;

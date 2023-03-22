@@ -2,7 +2,7 @@ import { FaAngleDown } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import "./Amen.css";
-
+ 
 function AmenitiesHome() {
   let navigate = useNavigate()
   return (

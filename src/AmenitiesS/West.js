@@ -20,20 +20,20 @@ function West() {
               alt="logo"
             />
 
-            <h6 className="brown-section one">T H E </h6>
-            <h1 className="brown-section two"> S P E C T A C U L A R</h1>
-            <h1 className="brown-section two"> S K Y G A R D E N S</h1>
+            <h6 className="trire">T H E </h6>
+            <h1 className="tir"> S P E C T A C U L A R</h1>
+            <h1 className="tir"> S K Y G A R D E N S</h1>
           </div>
 
           <div className="center1">
-            <p className="sunner">Wind down to the sunset on the west</p>
+            <p className="carey">Wind down to the sunset on the west</p>
           </div>
 
           <div className="disclaimer y">
-            <h4 className="eastward">T H E </h4>
-            <h4 className="eastward">W E S T W A R D</h4>
-            <h4 className="eastward"> G A R D E N</h4>
-            <p className="east-gard">
+            <h4 className="jirani">T H E </h4>
+            <h4 className="jirani">W E S T W A R D</h4>
+            <h4 className="jirani"> G A R D E N</h4>
+            <p className="coddler">
               is located on the 12th and 13th floor facing the plush Lavington
               area and its environs
             </p>

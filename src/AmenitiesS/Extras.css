@@ -75,7 +75,6 @@
 }
 .caring {
   margin-top: 15px;
-
   color: goldenrod;
   font-size: 28px;
   padding-bottom: 10px;
@@ -93,6 +92,7 @@
   background-color: rgb(69, 67, 67);
   color: grey;
   margin-top: 15px;
+  padding-top: 20px;
 }
 .flexbox-item-residencehomee-1 {
   /* background-color: pink; */
@@ -100,5 +100,9 @@
   width: 160px;
   flex-grow: 1;
   padding-left: 46px;
-  /* padding-right: 15px; */
+  
+}
+.luxury.t {
+font-size: 25px;
+  color: goldenrod;
 }

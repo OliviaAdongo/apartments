@@ -73,16 +73,16 @@
   }
   .abody {
     padding: 25px 10px 75px 35px;
-    height: 330px;
+    height: 350px;
     background-color: rgb(69, 67, 67);
     
 
   }
   .paragraph-bottommmer{
-    font-size: 18px;
+    font-size: 19px;
     color: grey;
     /* background-color: pink; */
-    padding: 45px 15px 15px 0;
+    padding: 49px 15px 15px 0;
   }
  
   .next {
@@ -93,6 +93,7 @@
   .carey {
     /* margin-top: 15px; */
     color: goldenrod;
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 10px;
+    padding-top: 15px;
   }

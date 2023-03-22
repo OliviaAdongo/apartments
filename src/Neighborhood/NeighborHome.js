@@ -14,7 +14,7 @@ function NeighborHome() {
           <img  
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
           className="rwhite-logo" alt="logo"/>
- 
+  
          <h6 className="trre">T H E </h6>
             <h1 className="tir"> N E I G H B O R H O O D</h1>
           

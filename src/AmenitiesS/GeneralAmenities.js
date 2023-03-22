@@ -24,12 +24,12 @@ function GeneralAmenities() {
             <h1 className="tir"> A M E N I T I E S</h1>
           </div>
           <div className="bodry">
-            <h1 className="luxury">CURATED FOR</h1>
-            <h1 className="luxury">LEISURE</h1>
+            <h1 className="luxury t">CURATED FOR</h1>
+            <h1 className="luxury t">LEISURE</h1>
 
-            <h1 className="luxury">WELLNESS AND</h1>
+            <h1 className="luxury t">WELLNESS AND</h1>
 
-            <h1 className="luxury">REJUVENATION</h1>
+            <h1 className="luxury t">REJUVENATION</h1>
 
             <p className="paragraphh-bottom">
               The heated infinity swimming pool
