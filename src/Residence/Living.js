@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/js/modal'
+
 
 import Navbar from "../Navbar/Navbar";
 import "./Rooms.css";
