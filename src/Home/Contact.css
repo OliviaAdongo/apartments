@@ -1,0 +1,23 @@
+.flexbox-container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  color: grey;
+  text-align: left;
+}
+.flexbox-item-contact2 {
+  background-color: pink;
+  width: 950px;
+  /* padding-top: 256px; */
+  /* text-align: center; */
+  height: 760px;
+  flex-grow: 1;
+}
+.flexbox-item-contact1 {
+  background-color: rgb(53, 51, 51);
+  height: 100vh;
+
+  flex-grow: 1;
+  width: 90px;
+}

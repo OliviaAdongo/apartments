@@ -3,10 +3,12 @@ import Amenities from "./AmenitiesS/Amenities";
 import AmenitiesHome from "./AmenitiesS/AmenitiesHome";
 import East from "./AmenitiesS/East";
 import GeneralAmenities from "./AmenitiesS/GeneralAmenities";
+import Glance from "./AmenitiesS/Glance";
 import Sunrise from "./AmenitiesS/Sunrise";
 import Sunset from "./AmenitiesS/Sunset";
 import West from "./AmenitiesS/West";
 import Availability from "./Home/Availability";
+import Contact from "./Home/Contact";
 import Home from "./Home/Home";
 import Rousel from "./Home/Rousel";
 import Fullbar from "./Navbar/Fullbar";
@@ -26,6 +28,8 @@ function App() {
       {/* <Navbar/> */}
       <Routes>
       <Route path="/menu" element={<Fullbar />} />
+      <Route path="/contact" element={<Contact />} />
+
       <Route path="/availability" element={<Availability />} />
 
 
@@ -47,6 +51,7 @@ function App() {
         <Route path="/sunrise" element={<Sunrise />} />
         <Route path="/sunset" element={<Sunset />} />
 
+        <Route path="/glance" element={<Glance />} />
 
         <Route path="/sunup" element={<East />} />
         <Route path="/sundown" element={<West />} />

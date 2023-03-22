@@ -8,7 +8,7 @@ function Home() {
     <div>
 <div className="flexbox-container">
     <div className="header-section">
-NAVBAR
+
     </div>
       <div className="logo-section-landing">
         <img

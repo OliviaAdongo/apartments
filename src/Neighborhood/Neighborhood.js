@@ -14,7 +14,7 @@ function Neighborhood() {
         className="neighborhood-profile"
       />
       </div>
-
+ 
 
       <div className="flexbox-item-neighborhood-2">
 

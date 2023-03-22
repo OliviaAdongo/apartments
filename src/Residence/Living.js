@@ -4,24 +4,28 @@ import "./Rooms.css";
 
 function Living() {
   let navigate = useNavigate();
-  return (
+  return ( 
+    <div className="kubwa-sun">
     <div>
-      <Navbar />
-      <div className="flexbox-container-livingroom">
-        <div className="flexbox-item-livingroom-1">
-          <div className="rheading">
-            <img
-              src="http://www.thesaruni.com/TheSaruniImages/logowhite.png"
-              className="rgrey-logo"
-              alt="logo"
-            />
+      <Navbar />{" "}
+    </div>
+    <div class="grid-container-sun">
+      <div class="grid-child purple" style={{ marginRight: "15px" }}>
+        <div className="the-sun room">
+          <img
+            src="http://www.thesaruni.com/TheSaruniImages/logowhite.png"
+            className="residence-home-logo-grey spec"
+            alt="logo"
+          />
 
-            <h6 className="topic title">T H E </h6>
-            <h1 className="topic next"> R E S I D E N C E S</h1>
-          </div>
+          <h6 className="trire">T H E </h6>
+          <h1 className="tir"> R E S I D E N C E S </h1>
+         
+        </div>
 
-          <div className="sidebar-center">
-            <h4
+
+        <div className="disclaimer y">
+        <h4
               className="activelink"
               onClick={() => {
                 navigate("/livingroom");
@@ -30,6 +34,7 @@ function Living() {
             >
               LIVING AREA
             </h4>
+
             <h4
               onClick={() => {
                 navigate("/bedroom");
@@ -44,42 +49,48 @@ function Living() {
               }}
               id="rooms"
             >
-              {" "}
               KITCHEN
             </h4>
-          </div>
-          <div className="paragraph-bottom-disclaimer">
-            <h4 id="disclaimer">DISCLAIMER</h4>
-            <p id="disclaimerr">These 3 & 2 bedroom aparment artistic</p>
-            <p id="disclaimer">impressions or image renders contained </p>
-            <p id="disclaimer">on this website are for illustrative </p>
-            <p id="disclaimer"> purposes only and should not be relied</p>
-            <p id="disclaimer">upon as being complete or accurate</p>
-          </div>
-        </div>
-        <div className="flexbox-item-livingroom-2">
-          <img
-            src="http://www.thesaruni.com/TheSaruniImages/livingleft.jpg"
-            alt="bag"
-            className="room-view"
-          />
-          <h6 className="example one">
-            {" "}
-            3 Bedroom apartment living area example
-          </h6>
-        </div>
-        <div className="flexbox-item-livingroom-3">
-          <img
-            src="http://www.thesaruni.com/TheSaruniImages/livingright.jpg"
-            alt="bag"
-            className="room-view2"
-          />
-          <h6 className="example two">
-            2 Bedroom apartment living area example
-          </h6>
+        
+
+
+          <p className="coddler">
+          <h4 id="disclaimer">DISCLAIMER</h4>
+          These 3 & 2 bedroom aparment artistic
+          impressions or image renders contained 
+          on this website are for illustrative 
+           purposes only and should not be relied
+          upon as being complete or accurate
+          </p>
         </div>
       </div>
+
+      <div class="grid-child green">
+        <img
+          src="http://www.thesaruni.com/TheSaruniImages/livingleft.jpg"
+          alt="bag"
+          className="ddsun"
+        />
+        <p className="example ones">
+        3 Bedroom apartment living area example
+        </p>
+      </div>
+      <div class="grid-child pink">
+        <img
+          src="http://www.thesaruni.com/TheSaruniImages/livingright.jpg"
+          alt="bag"
+          className="ddsun"
+        />
+        <p className="example twos">
+        2 Bedroom apartment living area example
+        </p>
+      </div>
     </div>
+
+    
+  </div>
+
+    
   );
 }
 

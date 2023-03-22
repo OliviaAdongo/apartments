@@ -50,14 +50,14 @@ function RecidenceHome() {
             alt="residence"
             className="living-area"
           />
-          <h6 onClick={() => {
+          
+        </div>
+        <h6 onClick={() => {
             navigate("/livingroom");
           }}
        className='more'>
             EXPLORE THE RESIDENCES<FaAngleDown />
           </h6>
-        </div>
-        
       </div>
       
     </div>

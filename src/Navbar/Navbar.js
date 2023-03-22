@@ -26,6 +26,9 @@ function Navbar() {
         <h4 className="th">THE SARUNI</h4>
         <nav ref={navRef} className="mtoto">
           <div className="menu">
+          <a href="/animation" className="menutext">
+              H O M E
+            </a>
             <a href="/availability" className="menutext">
               A V A I L A B I L I T Y
             </a>
